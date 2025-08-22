@@ -56,22 +56,6 @@
                 </div>
             </div>
 
-            <!-- Mobile Bottom Nav -->
-<nav class="mobile-nav">
-    <div class="mobile-nav-item" data-tab="home">
-        <i class="fa fa-home"></i>
-        <span>Home</span>
-    </div>
-    <div class="mobile-nav-item" data-tab="search">
-        <i class="fa fa-search"></i>
-        <span>Search</span>
-    </div>
-    <div class="mobile-nav-item" data-tab="library">
-        <i class="fa fa-book"></i>
-        <span>Library</span>
-    </div>
-</nav>
-
             <div class="content-area">
                 <!-- Home Tab Content -->
                 <div class="tab-content active" id="homeTab">
@@ -175,6 +159,21 @@
             </div>
         </div>
     </div>
+        <!-- Move Mobile Bottom Nav OUTSIDE .main-content and .spotify-app -->
+    <nav class="mobile-nav">
+        <div class="mobile-nav-item" data-tab="home">
+            <i class="fa fa-home"></i>
+            <span>Home</span>
+        </div>
+        <div class="mobile-nav-item" data-tab="search">
+            <i class="fa fa-search"></i>
+            <span>Search</span>
+        </div>
+        <div class="mobile-nav-item" data-tab="library">
+            <i class="fa fa-book"></i>
+            <span>Library</span>
+        </div>
+    </nav>
 
     <audio id="audioPlayer"></audio>
     <script src="script/script.js"></script>

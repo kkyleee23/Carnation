@@ -921,3 +921,18 @@ body {
         padding-bottom: 70px !important;
     }
 }
+@media (max-width: 800px) {
+    .content-area {
+        padding-bottom: 150px !important; /* enough for both bars */
+        overflow-y: auto;
+    }
+    .main-content {
+        padding-bottom: 0 !important;
+    }
+    .player-bar {
+        z-index: 101;
+    }
+    .mobile-nav {
+        z-index: 102;
+    }
+}
