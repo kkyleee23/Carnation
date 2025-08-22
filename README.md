@@ -40,7 +40,7 @@ One of my own **purple-themed spotify-style player** — but with **no ads** and
 
 ## 🌍 Live Demo
 Hosted with GitHub Pages:  
-👉 [What If?](https://64afaca5-e3c1-4769-a279-e364b096d08a-00-1nkdeoc6pr88r.sisko.replit.dev/home.html)  
+👉 [What If?](https://64afaca5-e3c1-4769-a279-e364b096d08a-00-1nkdeoc6pr88r.sisko.replit.dev/)  
 
 ---
 
