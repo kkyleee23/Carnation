@@ -51,4 +51,4 @@ Hosted with replit (only developer link for now):
 
 ---
 ## Updates:
-- Version RELEASE: BETA
+- Version RELEASE: BETA 1
