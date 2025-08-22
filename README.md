@@ -50,3 +50,5 @@ Hosted with replit (only developer link for now):
 - This is one of my first ever projects sooo, thank you for using it!
 
 ---
+## Updates:
+- Version RELEASE: BETA
