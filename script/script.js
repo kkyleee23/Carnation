@@ -205,13 +205,13 @@
         }
 
         switchTab(tab) {
-            // Update active nav item
+            // upd.. active nav item
             document.querySelectorAll('.nav-item').forEach(item => {
                 item.classList.remove('active');
             });
             document.querySelector(`[data-tab="${tab}"]`).classList.add('active');
 
-            // Show/hide tab content
+            // show/hide tab content;
             document.querySelectorAll('.tab-content').forEach(content => {
                 content.classList.remove('active');
             });
@@ -232,7 +232,7 @@
                 return;
             }
 
-            // Filter songs based on query
+            // filter the songs based on query
             this.searchResults = this.songs.filter(song => 
                 song.title.toLowerCase().includes(query.toLowerCase()) ||
                 song.artist.toLowerCase().includes(query.toLowerCase())
@@ -248,7 +248,7 @@
                 return;
             }
 
-            // Display search results
+            // display search results
             searchResults.innerHTML = `
                 <h2>Songs</h2>
                 <div class="search-results-grid"></div>
@@ -283,7 +283,7 @@
             const librarySongs = document.getElementById('librarySongs');
             const libraryList = document.getElementById('libraryList');
             
-            // Update sidebar library
+            // upd. sidebar library
             if (libraryList) {
                 libraryList.innerHTML = '';
                 this.getSortedSongs().slice(0, 10).forEach((song, index) => {
@@ -310,7 +310,7 @@
                 });
             }
 
-            // Update main library view
+            // Update main da library view
             if (librarySongsList) {
                 librarySongsList.innerHTML = '';
                 this.getSortedSongs().forEach((song, index) => {
@@ -424,7 +424,7 @@
             this.currentSongIndex = index;
             const song = this.songs[index];
 
-            // Update UI
+            // Update UI hereee
             this.updateActiveCard();
             this.updatePlayerDisplay();
 
@@ -440,7 +440,7 @@
                 // Audio playing successfully
             }).catch(e => {
                 console.log('Playback failed, using simulation:', e);
-                // For demo purposes with data URLs, simulate playback
+                // For demo purposes with data URLs, this is da playback
                 this.simulatePlayback();
             });
         }
