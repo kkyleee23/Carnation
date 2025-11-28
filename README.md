@@ -1,4 +1,4 @@
-# 🎵 What If – (Spoti-Purple Version)
+# 🎵 Carnation – (Spoti-Purple Version)
 
 A simple **music player website** that I built with **HTML, CSS, and JavaScript** only :>.  
 One of my own **purple-themed spotify-style player** — but with **no ads** and the only downside is the songs that I **add manually** 🫡.  
